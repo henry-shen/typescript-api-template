@@ -1,4 +1,4 @@
-# Links API
+# Typescript API
 
 ## What's required to run this API
 
@@ -28,7 +28,7 @@ With database:
 
 The GET endpoint is public and has no auth.
 
-``GET -> /users/:username `` fetch links by username
+``GET -> /users/:username`` fetch links by username
 
 The POST endpoint requires Basic authorization in the Authorization header.
 After the server authenticates the user, it will save the new link and the userId to the database.
